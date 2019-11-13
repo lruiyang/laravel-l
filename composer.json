@@ -1,0 +1,24 @@
+{
+    "name": "yang/l-laravel",
+    "description": "this is my one test small latavel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yang",
+            "email": "10077393674@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yang\\LLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Yang\\LLaravel\\Providers\\TestServiceProvider"
+            ]
+        }
+    }
+}
